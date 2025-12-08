@@ -8,7 +8,7 @@ const hero = () => {
   const handlesubmit =  (e)=>{
 e.preventDefault()
  const phoneNumber = '+919993718898'; // Replace with your WhatsApp number (with country code)
-        const encodedMessage = "I want to join the library seat";
+        const encodedMessage = "I want to join the library ";
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
         window.open(whatsappUrl, '_blank');
   }
@@ -32,7 +32,7 @@ e.preventDefault()
           <div className="flex items-center gap-5 ">
             {" "}
             <img src={lib} alt="logo" className="sm:max-w-16 hidden" />
-            <h1 className="text-5xl font-bold">Indigenious Library</h1>
+            <h1 className="text-5xl font-bold">indigenious library</h1>
           </div>
           <p className="py-6">
             An Indigenous library self-study program offering culturally
